@@ -17,8 +17,8 @@ namespace LumberRacer.SimpleRacer
         public int ColorPrecision { get; set; }
 
         [NumericConfig(@"Refresh Rate (ms)", DefaultValue = 1)]
-        public int RefreshRate { get; set; } = 1;
-        [NumericConfig(@"Requested Score", DefaultValue = 150, Max = 400)]
+        public int RefreshRate { get; set; } = 0.5;
+        [NumericConfig(@"Requested Score", DefaultValue = 150, Max = 1000)]
         public int RequiredScore { get; set; }
     }
 }
