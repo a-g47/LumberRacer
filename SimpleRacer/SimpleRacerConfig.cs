@@ -18,7 +18,7 @@ namespace LumberRacer.SimpleRacer
 
         [NumericConfig(@"Refresh Rate (ms)", DefaultValue = 1)]
         public int RefreshRate { get; set; } = 0.5;
-        [NumericConfig(@"Requested Score", DefaultValue = 150, Max = 1000)]
+        [NumericConfig(@"Requested Score", DefaultValue = 150, Max = 600)]
         public int RequiredScore { get; set; }
     }
 }
